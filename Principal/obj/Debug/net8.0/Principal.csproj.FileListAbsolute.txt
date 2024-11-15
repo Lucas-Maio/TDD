@@ -1,0 +1,14 @@
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\bin\Debug\net8.0\Principal.exe
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\bin\Debug\net8.0\Principal.deps.json
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\bin\Debug\net8.0\Principal.runtimeconfig.json
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\bin\Debug\net8.0\Principal.dll
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\bin\Debug\net8.0\Principal.pdb
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\Principal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\Principal.AssemblyInfoInputs.cache
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\Principal.AssemblyInfo.cs
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\Principal.csproj.CoreCompileInputs.cache
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\Principal.dll
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\refint\Principal.dll
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\Principal.pdb
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\Principal.genruntimeconfig.cache
+C:\Users\lukaz\OneDrive\Documents\GitHub\BootCamp DIO 2.0\TDD\Principal\obj\Debug\net8.0\ref\Principal.dll
