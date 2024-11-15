@@ -7,7 +7,27 @@ namespace Principal.Services
 {
     public class Calculadora
     {
+
         private List<string> _Historico;
+        private readonly DateTime data;
+
+        public List<string> HistoricoComIndice()
+        {
+            var historicoComIndice = new List<string>();
+
+            for (int i = 0; i < _Historico.Count; i++)
+            {
+                historicoComIndice.Add($"{i + 1}: {_Historico[i]}");
+            }
+
+            return historicoComIndice;
+        }
+
+        public Calculadora(DateTime data)
+        {
+            _Historico = new List<string>();
+            this.data = data;
+        }
 
         public Calculadora()
         {
@@ -41,7 +61,7 @@ namespace Principal.Services
         public List<string> Historico()
         {
             _Historico.RemoveRange(3, _Historico.Count() - 3);
-            return _Historico;
+            return _Historico.ToList();
         }
     }
 }

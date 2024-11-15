@@ -4,11 +4,19 @@ namespace Testes;
 
 public class UnitTest1
 {
+    public Calculadora ConstruirClasse()
+    {
+        DateTime data = DateTime.Now;
+        Calculadora calc = new Calculadora(data);
+        return calc;
+    }
+
+
     [Theory]
     [InlineData(1,2,3)]
     public void TesteSomar(int num1, int num2 ,int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = ConstruirClasse();
 
         int resultadoCalc = calc.Somar(num1,num2);
 
@@ -20,7 +28,7 @@ public class UnitTest1
     [InlineData(4,5,20)]
     public void TesteMultiplicar(int num1, int num2 ,int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = ConstruirClasse();
 
         int resultadoCalc = calc.Multiplicar(num1,num2);
 
@@ -32,7 +40,7 @@ public class UnitTest1
     [InlineData(5,4,1)]
     public void TesteSubtrair(int num1, int num2 ,int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = ConstruirClasse();
 
         int resultadoCalc = calc.Subtrair(num1,num2);
 
@@ -44,7 +52,7 @@ public class UnitTest1
     [InlineData(8,2,4)]
     public void TesteDividir(int num1, int num2 ,int resultado)
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = ConstruirClasse();
 
         int resultadoCalc = calc.Dividir(num1,num2);
 
@@ -54,7 +62,7 @@ public class UnitTest1
     [Fact]
     public void DivisãoPorZero()
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = ConstruirClasse();
         
         Assert.Throws<DivideByZeroException>(
             () => calc.Dividir(3,0));
@@ -63,7 +71,7 @@ public class UnitTest1
     [Fact]
     public void TestaHistorico()
     {
-        Calculadora calc = new Calculadora();
+        Calculadora calc = ConstruirClasse();
 
         calc.Somar(1,2);
         calc.Somar(4,8);
